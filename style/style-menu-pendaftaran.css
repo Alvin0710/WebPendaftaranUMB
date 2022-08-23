@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+#alur-pendaftaran, #jalur-seleksi, #biaya-pendidikan, #beasiswa {
+    padding: 50px 0;
+    margin: 100px 0;
+}
+
+/* #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.5s;
+    background-color: white;
+    z-index: 999;
+} */
+
+.navigation-link {
+    padding: 50px 0;
+}
+
+.row-navigation a {
+    margin: 10px 0;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: #2598db;
+}
+
+.row-navigation a:hover {
+    color: white;
+    text-decoration: none;
+    box-shadow: #2598db6e 0px 7px 29px 0px;
+}
+
+.row-navigation a:active {
+    background-color: white;
+    box-shadow: #2598db6e 0px 7px 29px 0px;
+    color: #2598db;
+}
+
+.navigation-title {
+    margin: 0;
+    padding: 20px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin: 100px 0;
+}
+
+.section-header h1 {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+
+
+.section-header hr {
+    border: 2px solid #245DE5;
+    background-color: #245DE5;
+    width: 56px;
+}
+
+.bg-gradient_solid {
+    background: white;
+    color: #fff;
+    padding: 48px 0;
+}
+
+.steps {
+    position: relative;
+    margin-top: 150px;
+}
+
+.steps::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    background-color: #245DE5;
+    top: -5rem;
+    bottom: 0;
+    left: 50%;
+}
+
+.steps .content p {
+    color: black;
+    font-size: 16px;
+}
+
+.steps .content h2 {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #2598db;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.steps-container {
+    position: relative;
+    background-color: inherit;
+    width: calc(50% + 32px);
+}
+
+.steps-container .content {
+    padding: 32px;
+    background-color: white;
+    position: relative;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+}
+
+.steps .steps-container:nth-child(even) {
+    left: calc(50% - 32px);
+    flex-direction: row-reverse;
+}
+
+.steps-container {
+    display: flex;
+}
+
+.steps .steps-container .step-number {
+    font-weight: 900;
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    width: 62px;
+    height: 62px;
+    background-color: #245DE5;
+    border-radius: 50%;
+    flex-shrink: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 777;
+}
+
+.step-line {
+    width: 40px;
+    background-color: #245DE5;
+    height: 2px;
+    margin-top: 31px;
+    flex-shrink: 0;
+}
+
+
+
+@media (max-width: 767px) {
+    .steps::after {
+        left: 32px;
+    }
+
+    .steps-container {
+        left: 0;
+        flex-direction: row-reverse;
+        width: auto;
+        margin-bottom: 16px;
+    }
+
+    .steps .steps-container:nth-child(even) {
+        left: 0;
+    }
+}
+
+
+/* Jalur Seleksi */
+.btn-informasi {
+    /* margin: 30px 0 70px 0; */
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #1898e2;
+    color: white;
+    border: none;
+}
+
+.btn-informasi:hover {
+    box-shadow: #2598db71 0px 7px 29px 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-informasi:active {
+    color: #2598db;
+    background-color: white;
+    font-weight: 500;
+}
+
+.card-jalur {
+    padding: 100px 10px;
+}
+
+.card-jalur-main {
+    margin: 30px 0;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+}
+
+
+/* Biaya Pendidikan */
+.container-table {
+    overflow-x: auto;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle;
+}
+
+.per-prodi th {
+    font-weight: 400;
+}
+
+section {
+    margin: 50px 0;
+}
+
+.keterangan {
+    margin: 50px 0 200px 0;
+}
+
+.section-header {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.section-header h2 {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+/* Mobile */
+@media only screen and (max-width: 450px) {
+    .row {
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+    }
+}
+
+
+/* Program Beasiswa */
+.container-poster {
+    padding: 10px 0;
+    margin: 0 -30px;
+}
+
+.container-poster:hover {
+    border-radius: 7px;
+    box-shadow: #79727271 0px 7px 29px 0px;
+    /* height: 600px; */
+}
+
+.poster {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+/* Menu Button */
+.main-button button {
+    display: none;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    bottom: 70px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.btn-primary {
+    box-shadow: #79727271 0px 7px 29px 0px;
+}
+
+.social-btn {
+    opacity: 1;
+    display: none;
+    position: fixed;
+    bottom: 150px;
+    right: 50px;
+    transition: opacity 0.7s;
+    z-index: 999;
+}
+
+.social-btn li i {
+    float: right;
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.main-button ul li {
+    width: 250px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.main-button ul li:hover i {
+    font-size: 25px;
+}
+
+.active-menu-button {
+    display: block !important;
+}
+
+.active-blur-section {
+    filter: blur(10px) !important;
+}
+
+.close-menu-button {
+    display: none !important;
+}
+
+.close-blur-section {
+    filter: blur(0) !important;
+}
+
+/* For mobile only */
+@media only screen and (max-width: 480px) {
+    .main-button button {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .social-btn {
+        position: fixed;
+        bottom: 100px;
+        right: 30px;
+    }
+}

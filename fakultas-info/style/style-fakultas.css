@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif !important;
+    scroll-behavior: smooth;
+}
+
+.fakultas-title {
+    padding: 100px 0 50px 0;
+}
+
+.fakultas-title h1 {
+    font-size: 60px;
+}
+
+.fakultas-title hr {
+    /* border: 3px solid #d6ca2123;
+    background-color: #d6ca2123; */
+    width: 80%;
+    margin-left: 0;
+}
+
+.img-fakultas {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 7px;
+}
+
+.box-shadow {
+    border-radius: 7px;
+    box-shadow: #7972723a 0px 7px 20px 0px;
+}
+
+.program {
+    height: 37rem;
+}
+
+.program p {
+    font-weight: large;
+}
+
+.hr-title {
+    border: 2px solid yellow;
+    background-color: yellow;
+    width: 100px;
+    margin-left: 0;
+}
+
+#separate {
+    border: 1px solid #1b1d1b23;
+    background-color: #1b1d1b23;
+    width: 50%;
+    margin-left: 0;
+}
+
+.badge-feb {
+    background-color: yellow;
+    border: 3px solid yellow;
+    border-radius: 50px;
+}
+
+.badge-teknik {
+    background-color: #245DE5;
+    border: 3px solid #245DE5;
+    border-radius: 50px;
+}
+
+.badge-fasilkom {
+    background-color: #00afd6;
+    border: 3px solid #00afd6;
+    border-radius: 50px;
+}
+
+.badge-fdsk {
+    background-color: #00afac;
+    border: 3px solid #00afac;
+    border-radius: 50px;
+}
+
+.badge-fikom {
+    background-color: #f7b149;
+    border: 3px solid #f7b149;
+    border-radius: 50px;
+}
+
+.badge-psikologi {
+    color: #B751F5;
+    background-color: #B751F5;
+    border: 3px solid #B751F5;
+    border-radius: 50px;
+}
+
+
+/* .card {
+    background-color: rgba(128, 128, 128, 0.041);
+} */

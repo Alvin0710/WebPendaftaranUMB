@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+html, body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Fasilitas */
+
+/* .nav-tabs {
+    border: 2px solid black !important;
+    border-top: 0;
+} */
+
+/* when not active use specificity to override the !important on border-(color) */
+.nav-tabs .nav-link:not(.active) {
+    border-color: transparent !important;
+}
+
+/* 
+.nav-link:is(.active){
+    border-color: red !important;
+    border-bottom: transparent !important;;
+} */
+
+/* .border-primary {
+    op
+} */
+
+
+.title-fasilitas {
+    margin: 100px 0;
+}
+
+.title-fasilitas h1 {
+    font-weight: bold;
+    /* padding: 50px 0; */
+}
+
+.title-fasilitas hr {
+    border: 2px solid #245DE5;
+    background-color: #245DE5;
+    width: 56px;
+}
+
+.title-fasilitas-inside {
+    margin: 50px 0;
+}
+
+.title-fasilitas-inside h2 {
+    font-weight: bold;
+    padding: 30px 0 10px 0;
+}
+
+.title-fasilitas-inside hr {
+    border: 2px solid #245DE5;
+    background-color: #245DE5;
+    width: 100px;
+    margin-left: 0;
+}
+
+
+/* .tab-pane h2 {
+
+} */
+
+.img-fasilitas {
+    width: 100%;
+    height: auto;
+}
+
+.img-subtitle {
+    padding: 25px 0 0 0;
+    text-align: center;
+}
+
+.img-container {
+    padding: 30px 15px 30px 15px;
+    /* margin: 15px 0; */
+}
+
+.img-container:hover {
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+}
+
+.img-container-outer {
+    padding: 5px;
+}
+
+.row-img {
+    margin: 0 0 75px 0;
+}
+
+.background-title {
+    border-radius: 7px;
+    box-shadow: #2598db6e 0px 7px 29px 0px;
+    padding: 0 30px;
+    margin: 70px 0 25px 0;
+    background-color: #1898e2;
+    color: white;
+}
+
+section {
+    margin-bottom: 150px;
+}
+
+
+
+/* For tablet only */
+@media only screen and (min-device-width : 768px) and (max-width: 1023px) {
+    .container-over {
+        position: relative;
+        top: 3rem;
+        right: 3rem;
+    }
+
+    .main-title {
+        overflow-x: hidden;
+    }
+
+    .main-body {
+        margin-top: -20rem;
+    }
+
+}
+
+/* For mobile only */
+@media only screen and (max-width: 480px) {
+    .main-title {
+        overflow-x: hidden;
+        /* margin: 0 1rem; */
+    }
+
+    .container-over {
+        position: static;
+    }
+
+    .image-over {
+        position: static;
+    }
+
+    .main-title-text {
+        width: 22.5rem;
+        padding: 30px;
+        margin: 10px;
+        /* margin: 0 10px; */
+        /* height: auto; */
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .main-title-text h1 {
+        /* margin-bottom: 55px; */
+        font-size: 2.5rem;
+        padding: 10px;
+        line-height: 65px;
+    }
+
+    .main-title-text p {
+        font-size: 17px;
+    }
+
+    .main-body {
+        margin-top: -10rem;
+    }
+}
+
+
+/* For several mobile device */
+@media only screen and (max-width: 376px) {
+    .main-body {
+        margin-top: 0;
+    }
+}
+
+
+/* For tablet and mobile */
+@media only screen and (max-width: 1023px) {
+    .per-fakultas {
+        padding: 50px 30px;
+        margin: 30px 0;
+        border-radius: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .img-container {
+        margin: 15px 0;
+        border-radius: 7px;
+        box-shadow: rgba(100, 100, 111, 0.301) 0px 7px 29px 0px;
+    }
+}
